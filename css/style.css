@@ -152,10 +152,11 @@
     filter: grayscale();
 }
 
-/* .ex-7-img:hover{
+.ex-7-img:hover{
     filter: grayscale();
     transition: 1s;
-} */
+} 
+
 .ex-8-img:hover {
     filter: grayscale();
     transition: all 1s ease 0s;
@@ -237,15 +238,11 @@
     animation: move 1s infinite;
 }
 
-/* .ex-12-top-white:hover{
-    animation: move 1s linear alternate;
-} */
 
 @keyframes move {
     0% {
-        left: 0px;
+        left:0px;
         top: 0px;
-        ;
     }
 
     25% {
@@ -253,8 +250,6 @@
         top: 0px;
     }
 }
-
-
 
 .ex-12-bottom-white,
 .ex-13-bottom-white {
