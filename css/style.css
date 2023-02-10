@@ -176,7 +176,7 @@
 
 .ex-10-icon {
     font-size: 60px;
-    animation: circle 1s /* linear */ infinite;
+    animation: circle 1s /* linear */ /* infinite */;
 }
 
 @keyframes circle{
@@ -190,7 +190,18 @@
 
 .ex-11-icon {
     font-size: 60px;
+    animation: circle 1s /* linear */infinite;
 }
+
+@keyframes circle{
+    from {
+      transform:rotate(0deg);
+    }
+    to  {
+      transform:rotate(270deg);
+    }
+}
+
 
 .ex-12-button,
 .ex-13-button {
