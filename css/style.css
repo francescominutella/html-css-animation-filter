@@ -129,6 +129,15 @@
     height: 60px;
     background: red;
 }
+.ex-5-square:hover{
+    transition: 1s;
+    width: 100px;
+    height: 100px;
+}
+.ex-5-square:active{
+    width: 60px;
+    height: 60px;
+}
 
 .ex-6-img,
 .ex-7-img,
