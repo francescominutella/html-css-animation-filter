@@ -1,3 +1,44 @@
+/* # reagiom Common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.margin-top-15 {
+    margin-top: 15px;
+}
+.margin-top-30 {
+    margin-top: 30px;
+}
+.margin-top-45 {
+    margin-top: 45px;
+}
+.margin-top-60 {
+    margin-top: 60px;
+}
+.margin-top-75 {
+    margin-top: 75px;
+}
+
+.margin-bottom-15 {
+    margin-bottom: 15px;
+}
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+.margin-bottom-45 {
+    margin-bottom: 45px;
+}
+.margin-bottom-60 {
+    margin-bottom: 60px;
+}
+.margin-bottom-75 {
+    margin-bottom: 75px;
+}
+/* # endraegiom Common */
+
+
 .ex-1-square {
     width: 100px;
     height: 100px;
@@ -13,12 +54,20 @@
     width: 100px;
     height: 100px;
     background: red;
+    flex-grow: 100%;
 }
+
+.ex-2-square:active{
+    transition: all 1s ease 0s;
+    width: 100%;
+}
+
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+
 .ex-4-square {
     width: 100px;
     height: 100px;
