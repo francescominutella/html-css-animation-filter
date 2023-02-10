@@ -190,7 +190,7 @@
 
 .ex-11-icon {
     font-size: 60px;
-    animation: circle 1s /* linear */infinite;
+    animation: circle 1s /* linear *//* infinite */;
 }
 
 @keyframes circle{
