@@ -8,15 +8,19 @@
 .margin-top-15 {
     margin-top: 15px;
 }
+
 .margin-top-30 {
     margin-top: 30px;
 }
+
 .margin-top-45 {
     margin-top: 45px;
 }
+
 .margin-top-60 {
     margin-top: 60px;
 }
+
 .margin-top-75 {
     margin-top: 75px;
 }
@@ -24,18 +28,23 @@
 .margin-bottom-15 {
     margin-bottom: 15px;
 }
+
 .margin-bottom-30 {
     margin-bottom: 30px;
 }
+
 .margin-bottom-45 {
     margin-bottom: 45px;
 }
+
 .margin-bottom-60 {
     margin-bottom: 60px;
 }
+
 .margin-bottom-75 {
     margin-bottom: 75px;
 }
+
 /* # endraegiom Common */
 
 
@@ -44,9 +53,10 @@
     height: 100px;
     border: 1px solid red;
     transition: all 2s ease 0s;
-    
+
 }
-.ex-1-square:hover{
+
+.ex-1-square:hover {
     background-color: red;
 }
 
@@ -57,7 +67,7 @@
     flex-grow: 100%;
 }
 
-.ex-2-square:active{
+.ex-2-square:active {
     transition: all 1s ease 0s;
     width: 100%;
 }
@@ -66,20 +76,59 @@
     width: 100px;
     height: 100px;
     background: red;
+    /* animation: square-to-circle 1s
+    .83s infinite cubic-bezier(1,.015,.295,1.225) alternate; ; */
 }
+
+.ex-3-square:hover {
+    transition: all 2s;
+    border-radius: 100%;
+}
+
+/* @keyframes square-to-circle {
+    0%  {
+      border-radius:0 0 0 0;
+      background:black;
+      transform:rotate(0deg);
+    }
+    25%  {
+      border-radius:25% 25% 25% 25%;
+      background:black;
+      transform:rotate(45deg);
+    }
+    50%  {
+      border-radius:50% 50% 50% 50%;
+      background:black;
+      transform:rotate(90deg);
+    }
+    75%  { 
+      border-radius:75% 75% 75% 75%;
+      background:black;
+      transform:rotate(180deg);
+    }
+    100% {  
+      border-radius:100% 100% 100% 100%;
+      background:black;
+      transform:rotate(360deg);
+    } */
+/* } */
 
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
 }
-.ex-6-img, .ex-7-img, .ex-8-img {
+
+.ex-6-img,
+.ex-7-img,
+.ex-8-img {
     width: 500px;
 }
 
@@ -87,13 +136,17 @@
     margin: 50px 100px;
     width: 400px;
 }
+
 .ex-10-icon {
     font-size: 60px;
 }
+
 .ex-11-icon {
     font-size: 60px;
 }
-.ex-12-button, .ex-13-button {
+
+.ex-12-button,
+.ex-13-button {
     position: relative;
     display: block;
     width: 200px;
@@ -106,7 +159,9 @@
     text-align: center;
     text-decoration: none;
 }
-.ex-12-top-white, .ex-13-top-white {
+
+.ex-12-top-white,
+.ex-13-top-white {
     position: absolute;
     top: -10px;
     left: 10%;
@@ -114,7 +169,9 @@
     width: 60px;
     height: 20px;
 }
-.ex-12-bottom-white, .ex-13-bottom-white {
+
+.ex-12-bottom-white,
+.ex-13-bottom-white {
     position: absolute;
     bottom: -10px;
     right: 20%;
